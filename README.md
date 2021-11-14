@@ -113,8 +113,9 @@ To https://github.com/codingchallengesmm/codingchallengesmm.github.io.git
 
 If you could not authenticate with github with your PAT, you could try this:
 
-Change your remote url to `https://<your-username>:<your-personalaaccess-token>@github.com/<your-username>/<your-repo-name>.
-For example: https://codingchallengesmm:ghp_W9T2KVK01THISISAKEKEYmChH07IqcO@github.com/codingchallengesmm/codingchallengesmm.github.io.git
+Change your remote url to `https://<your-username>:<your-personal-access-token>@github.com/<your-username>/<your-username>.github.io.git`.
+
+For example: `https://codingchallengesmm:ghp_THISISAFAKEKEY@github.com/codingchallengesmm/codingchallengesmm.github.io.git`
 
 # Socials
 
