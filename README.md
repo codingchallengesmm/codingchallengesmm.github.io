@@ -115,7 +115,10 @@ If you could not authenticate with github with your PAT, you could try this:
 
 Change your remote url to `https://<your-username>:<your-personal-access-token>@github.com/<your-username>/<your-username>.github.io.git`.
 
-For example: `https://codingchallengesmm:ghp_THISISAFAKEKEY@github.com/codingchallengesmm/codingchallengesmm.github.io.git`
+In my case, the url is: `https://codingchallengesmm:ghp_THISISAFAKEKEY@github.com/codingchallengesmm/codingchallengesmm.github.io.git`
+
+Set the url with the command:
+`git remote set-url origin https://codingchallengesmm:ghp_THISISAFAKEKEY@github.com/codingchallengesmm/codingchallengesmm.github.io.git`
 
 # Socials
 
