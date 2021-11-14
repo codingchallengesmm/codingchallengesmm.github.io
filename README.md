@@ -120,6 +120,13 @@ In my case, the url is: `https://codingchallengesmm:ghp_THISISAFAKEKEY@github.co
 Set the url with the command:
 `git remote set-url origin https://codingchallengesmm:ghp_THISISAFAKEKEY@github.com/codingchallengesmm/codingchallengesmm.github.io.git`
 
+or you can also edit the `.git/config`. For VSCode, run this in your vscode:
+
+```
+code .git/config
+```
+Under `[remote "origin"]` change the url to include your access token.
+
 # Socials
 
 Find us on [Facebook](https://fb.me/codingchallengesmm).
