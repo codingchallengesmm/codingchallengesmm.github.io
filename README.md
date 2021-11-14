@@ -1,3 +1,3 @@
-# welcome to my site
+# welcome to CCM's repo
 
-my github pages site!!!
+Find us on [Facebook](https://fb.me/codingchallengesmm).
