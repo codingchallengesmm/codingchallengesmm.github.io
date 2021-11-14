@@ -46,7 +46,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Run `git add -A` to add the change.
 Run `git commit -m "first commit"` to commit the changes to your repo.
 
-## Set username / email
+## 3.1 Set username / email
 If it's your first time using git, you'll need to set your name and email.
 
 ```
@@ -77,7 +77,7 @@ Password for 'https://codingchallengesmm@github.com':
 
 Do not enter your password. Instead, you'll need to create an Personal access token.
 
-## Create a Personal Access Token
+## 3.2 Create a Personal Access Token
 
 To make changes to your repo, you'll need to set up ssh keys, or PAT (Personal Access Token).
 
@@ -96,6 +96,25 @@ Username for 'https://github.com': <your-username>
 Password for 'https://codingchallengesmm@github.com': <your-personal-access-token>
 ```
 
+If all goes well, you should see the message similar to this:
+
+```
+Enumerating objects: 9, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.68 KiB | 1.68 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/codingchallengesmm/codingchallengesmm.github.io.git
+```
+
+# TroubleShooting
+
+If you could not authenticate with github with your PAT, you could try this:
+
+Change your remote url to `https://<your-username>:<your-personalaaccess-token>@github.com/<your-username>/<your-repo-name>.
+For example: https://codingchallengesmm:ghp_W9T2KVK01THISISAKEKEYmChH07IqcO@github.com/codingchallengesmm/codingchallengesmm.github.io.git
 
 # Socials
 
