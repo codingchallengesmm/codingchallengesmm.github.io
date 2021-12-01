@@ -130,3 +130,4 @@ Under `[remote "origin"]` change the url to include your access token.
 # Socials
 
 Find us on [Facebook](https://fb.me/codingchallengesmm).
+Find us on [YouTube](https://www.youtube.com/channel/UCdC2Whv4_Aa_QCR9VM-Xcwg)
